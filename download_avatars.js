@@ -3,14 +3,11 @@ var request = require('request');
 console.log('Welcome to the GitHub Avatar Downloader!');
 
 function getRepoContributors(repoOwner, repoName, cb) {
-  // ...
-  // request.get('https://github.com/nodejs/node')
-  //        .on('error', function(err) {
-  //         throw err;
-  //        })
-  //        .on('response', function(response) {
-  //         console.log(response['login']);
-  //        })
+
+    var url = "https://api.github.com/repos/" + repoOwner + "/" + repoName + "/contributors";
+  request(url, function(err, res, body) {
+    cb(err, body);
+  });
 }
 
 
