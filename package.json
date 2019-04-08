@@ -1,7 +1,7 @@
 {
   "name": "github-avatar-download",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Problem Statement",
   "main": "download_avatars.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vgjangsoo/github-avatar-downloader.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vgjangsoo/github-avatar-downloader/issues"
+  },
+  "homepage": "https://github.com/vgjangsoo/github-avatar-downloader#readme"
 }
