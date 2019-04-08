@@ -1,5 +1,3 @@
-const request = require('request');
-const fs = require('fs');
+var request = require('request');
 
-
-
+console.log('Welcome to the GitHub Avatar Downloader!');
